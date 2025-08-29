@@ -1,0 +1,37 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        { "internalType": "uint256", "name": "salt", "type": "uint256" }
+      ],
+      "name": "mint",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "user", "type": "address" },
+        { "internalType": "uint256", "name": "salt", "type": "uint256" }
+      ],
+      "name": "previewTraits",
+      "outputs": [
+        { "internalType": "uint8", "name": "colorIdx", "type": "uint8" },
+        { "internalType": "uint8", "name": "shapeIdx", "type": "uint8" },
+        { "internalType": "uint8", "name": "rarity", "type": "uint8" }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "user", "type": "address" },
+        { "internalType": "uint256", "name": "salt", "type": "uint256" }
+      ],
+      "name": "previewSVG",
+      "outputs": [{ "internalType": "string", "name": "", "type": "string" }],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
+}
